@@ -1,6 +1,6 @@
 # basic_system
 
-## KAWAII Quest ~ルンバの大冒険~
+## KAWAII Quest \~ルンバの大冒険\~
 
 ## Things necessary
 - 写真を撮る x1~
