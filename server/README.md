@@ -6,7 +6,7 @@
 ## Function necessasy
 - 動画を映す <- Railsなら確実にできる
 - 写真を写す
-- ルンバの操作
+- ルンバの操作 <- RaspberryPiに命令を送る
 - どのルンバを操作するか(タブ/選択)
 
 ## How to run Server

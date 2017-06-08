@@ -1,0 +1,14 @@
+<img src="sample.jpg" name="webcam"><br>（<span id="update"></span>更新）
+
+<script type="text/javascript">
+cam = new Image();
+cam.src = document.webcam.src;
+webcamTimer();
+
+function webcamTimer() {
+	var now = new Date();
+	document.webcam.src = cam.src + "?" + now.getTime();
+	document.getElementById("update").innerHTML = now.getHours() + "時" + now.getMinutes() + "分";
+	setTimeout("webcamTimer()",100); //100/10000秒で呼び出し
+}
+</script>
