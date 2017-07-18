@@ -1,0 +1,135 @@
+\documentclass[a4paper, twocolumn]{jarticle}
+%\documentclass[uplatex]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{float}
+%\usepackage[dvips]{color}
+%\usepackage{ascmac}
+%\usepackage{verbatim}
+\usepackage{setspace}
+\usepackage[top=20mm,bottom=20mm,left=18mm,right=18mm]{geometry}
+\makeatletter
+\def\section{\@startsection{section}{1}{\z@}%
+ {.1\Cvs \@plus.1\Cdp \@minus.1\Cdp}%
+ {.1\Cvs \@plus.1\Cdp}%
+ {\normalfont\normalsize\bfseries}}
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\def\subsection{\@startsection{subsection}{1}{\z@}%
+ {.1\Cvs \@plus.1\Cdp \@minus.1\Cdp}%
+ {.1\Cvs \@plus.1\Cdp}%
+ {\normalfont\normalsize\bfseries}}
+
+\def\@maketitle {
+	\begin{center}
+		\fontsize{14pt}{0pt}\selectfont
+                % {\bf \@title{}}
+                {\@title{}}
+	\end{center}
+	\vspace{1pt}
+	\begin{flushleft}
+		% \@author{指導教員 福田浩章 }
+		\hfill{MA17099 古橋健斗}
+	\end{flushleft}
+\vspace{0.3cm}
+}
+
+%\makeatother
+%\makeatletter
+
+\renewcommand{\baselinestretch}{0.80}
+
+\pagestyle{empty}
+\makeatother
+
+\begin{document}
+\title{KAWAII Quest -ルンバの大冒険-}
+\date{}
+\maketitle
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%背景と目的
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{研究の背景}
+ロボット技術の進化を背景に，様々な分野でロボットが活躍している．
+例えば，災害救助などである．
+災害地へロボットを送り込み，人間が入り込めない場所への探索を目的としている．
+また，ロボット技術は普段の生活にも役立てられている．
+その例として自動で部屋を掃除するロボットであるルンバが挙げられる．
+ルンバは本来部屋を掃除するためのロボットであるため，平地の探索の研究に用いられることがある．
+対象の範囲を事前に学習させ，地図を作ることで，より効率よく探索させることが可能になる．
+また，地図を作成するには，画像処理の技術が必要となる．
+コンピュータの性能が上がるにつれ，画像処理の精度が大幅に向上している．
+画像処理の分野では，対象物を自動で判別するために機械学習が用いられることが多い．
+機械学習とは，データから反復的に学習し，そこに潜むパターンを見つけ出す技術である．
+
+\section{提案}
+本研究では，ロボットの探索能力と機械学習による対象物の判別を利用して，特定の物を探索するシステムを提案する．
+ロボットには前述したルンバを用い，部屋の探索を行う．
+本研究での対象物は可愛いものとする．
+可愛いは，日本人の特出すべき感性であり，日本の文化の1つと認識されている．
+本システムをKAWAII QUEST\~ルンバの大冒険\~と称し，以下にシステムの概要を述べる．
+本システムには2つもモードを搭載する．
+1つはユーザが自由にルンバを動こし，ユーザが可愛いと思う画像を撮影することで，画像処理のための教師データの収集を行う．
+これにより，個々の人間による完成の差異をなくす．
+また，全ユーザに適用される教師データとそのユーザに対してのみ有効である教師データを分けることで，一定の教師データの確保を行う．
+もう1つは，ルンバが自動徘徊し，集めた教師データをもとに対象物を発見，判別し，その画像を撮影しユーザへの表示を行う．
+したがって，ルンバの操作や画像をユーザへ表示を行うための管理ツールが必要となる．
+
+ルンバは10分の1秒ごとに撮影を行い，対象物の判別を行うが，通常のノート型コンピュータでは性能が足りず，処理落ちする可能性がある．
+そこで，本システムではRaspberry Piを使った分散型データセンタを構築することでその問題を解決する．
+
+
+\section{設計}
+
+\section{実装}
+
+\section{関連研究}
+本研究では，RaspberryPiを用いたデータセンタ環境の構築を行った．
+それに伴い，関連研究について述べる．
+
+\subsection{The Glasgow Raspberry Pi Cloud:A Scale Model for Cloud Computing Infrastructures\cite{thesis3}}
+この研究では，RaspberryPiを用いて教育用のデータセンタの構築を行なっている．
+データセンタは高価で一般の学生などが触れることは少ないため，そのような人がデータセンタを使うための研究である．
+しかし，この研究でのデータセンタは一般的なものであり，本研究では使用することができない．
+なぜなら，この研究のデータセンタは負荷分散を行えず，画像処理などの負荷のかかる処理に対処できないためである．
+本研究では，ユーザ毎に仮想マシンを指定するのではなく，負荷状況によって仮想マシンを指定する．
+仮に，1つのルンバが大量の画像データを送った場合に，この研究のデータセンタでは全てのデータが1つの仮想マシンで処理が行われてしまうため，1つの仮想マシンに膨大な負荷がかかってしまう．
+しかし，本研究のデータセンタは負荷状況に応じて画像データを振り分けるので，1つの仮想マシンに処理が集中することはなく，データセンタ全体で負荷の調整が行われる．
+したがって，本研究のデータセンタは本システムにとって適したデータセンタ環境となっている．
+
+\section{計画}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%参考文献
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{9}
+	{\small
+    \bibitem{irobot}
+    アイロボット公式サイト https://www.irobot-jp.com/roomba 2017-06-17
+
+    \bibitem{thesis1}
+    中村 彰宏, 大林 千尋, 柴田 智広, "ダンシングルンバ～踊る掃除制御～
+Dancing Roomba", 情報処理学会研究報告 IPSJ SIG Technical Report 研究報告エンタテインメントコンピューティング(EC), Vol.2011-EC-20 No.10, 2011
+
+    \bibitem{thesis2}
+    福田 拓人, 森田 峰史, 高橋 智一, 鈴木 昌人, 青柳 誠司, "ロボット掃除機ルンバによる蛍光灯位置情報を利用した地図作成と自己位置推定(移動ロボットの自己位置推定と地図構築)", 一般社団法人日本機械学会 ロボティクス・メカトロニクス講演会講演概要集 2014, 2014
+
+    \bibitem{thesis3}
+    Fung Po Tso, David R. White, Simon Jouet, Jeremy Singer, Dimitrios P. Pezaros, "The Glasgow Raspberry Pi Cloud:A Scale Model for Cloud Computing Infrastructures",  2013 IEEE 33rd International Conference on Distributed Computing Systems Workshops, 2013
+
+    \bibitem{sdn}
+    Open Netrowking Foundation website. https://www.opennetworking.org 2017-06-17
+
+    \bibitem{opf}
+      Open Netrowking Foundation OpenFlow website. https://www.opennetworking.org/sdn-resources/openflow 2017-06-17
+
+    % \bibitem{thesis4}
+ %  	Horacio Andrés Lagar-Cavilla,Joseph Andrew Whitney，Adin Matthew Scannell，Philip Patchin，Stephen M.Rumble，Eyal de Lara，Michael Brudno，Mahadev Satyanarayanan，"SnowFlock:rapid virtual machine cloning for cloud computing，In EuroSys'09 Proceedings of the 4th ACM European conference on Computer systems", pp.1-12, 2009.
+    %
+    % \bibitem{thesis5}
+    % Takahiro Hirofuchi, Hidemoto Nakada, Satoshi Itoh, Satoshi Sekiguchi, "Reactive Cloud: Consolidating Virtual Machines with Postcopy Live Migration", IPSJ Transactions on Advanced Computing Systems, Vol.5 No.2 86–98 ,2012
+
+}
+\end{thebibliography}
+\end{document}
