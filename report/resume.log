@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.18)  25 JUL 2017 01:16
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.18)  26 JUL 2017 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,19 +147,19 @@ LaTeX Font Info:    ... okay on input line 44.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 90.
 [1
 
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 140.
+(Font)              <9> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 140.
+(Font)              <5> on input line 166.
 File: fig/flow_study.png Graphic file (type bmp)
  <fig/flow_study.png>
 File: fig/flow_search.png Graphic file (type bmp)
@@ -167,9 +167,9 @@ File: fig/flow_search.png Graphic file (type bmp)
 File: fig/cloud.png Graphic file (type bmp)
  <fig/cloud.png> [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 278.
+(Font)              <7> on input line 304.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 279.
+(Font)              <8> on input line 305.
 File: fig/topology.png Graphic file (type bmp)
 
 <fig/topology.png> [3] [4]
@@ -180,13 +180,13 @@ File: fig/migrate_flow_diff.png Graphic file (type bmp)
 File: fig/clone_flow.png Graphic file (type bmp)
 
 <fig/clone_flow.png>
-Underfull \hbox (badness 1609) in paragraph at lines 439--449
+Underfull \hbox (badness 1609) in paragraph at lines 465--475
 \JY1/mc/m/n/10 が移動する ． そこで ， \OT1/cmr/m/n/10 OvS \JY1/mc/m/n/10 では
 転送先アドレス
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 457--470
+Underfull \hbox (badness 1418) in paragraph at lines 483--496
 []\JY1/mc/m/n/10 図 \OT1/cmr/m/n/10 7 \JY1/mc/m/n/10 は \OT1/cmr/m/n/10 2 \JY1/
 mc/m/n/10 台のクライアント \OT1/cmr/m/n/10 (IP1, IP2) \JY1/mc/m/n/10 のうち
  []
@@ -194,110 +194,110 @@ mc/m/n/10 台のクライアント \OT1/cmr/m/n/10 (IP1, IP2) \JY1/mc/m/n/10 の
 [5]
 File: fig/graph.png Graphic file (type bmp)
  <fig/graph.png>
-Overfull \hbox (25.49875pt too wide) in paragraph at lines 542--543
+Overfull \hbox (25.49875pt too wide) in paragraph at lines 568--569
  [][] 
  []
 
 
-Overfull \hbox (32.97308pt too wide) in paragraph at lines 560--561
+Overfull \hbox (32.97308pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
 [6]
 File: fig/migrate.png Graphic file (type bmp)
  <fig/migrate.png>
-Overfull \hbox (13.53581pt too wide) in paragraph at lines 640--641
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 666--667
 [][] 
  []
 
 File: fig/clone.png Graphic file (type bmp)
 <fig/clone.png>
-Overfull \hbox (13.53581pt too wide) in paragraph at lines 646--647
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 672--673
 [][] 
  []
 
 File: fig/migrate_vm2.png Graphic file (type bmp)
 <fig/migrate_vm2.png>
-Overfull \hbox (13.53581pt too wide) in paragraph at lines 668--669
-[][] 
- []
-
-File: fig/clone_vm2.png Graphic file (type bmp)
-<fig/clone_vm2.png>
-Overfull \hbox (13.53581pt too wide) in paragraph at lines 673--674
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 694--695
 [][] 
  []
 
 [7]
+File: fig/clone_vm2.png Graphic file (type bmp)
+ <fig/clone_vm2.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 699--700
+[][] 
+ []
+
 File: fig/kawaii.png Graphic file (type bmp)
- <fig/kawaii.png>
-Overfull \hbox (13.53581pt too wide) in paragraph at lines 693--694
+<fig/kawaii.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 719--720
 [][] 
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 726--727
+Underfull \hbox (badness 6364) in paragraph at lines 758--759
 []\JY1/mc/m/n/10 ロボ ッ ト掃除機 ルンバ\OT1/cmr/m/n/10 |\JY1/mc/m/n/10 アイロ
 ボ ッ ト公式サ
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 726--727
+Underfull \hbox (badness 1178) in paragraph at lines 758--759
 \JY1/mc/m/n/10 イト\OT1/cmr/m/n/10 -iRobot https://www.irobot-jp.com/roomba/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 []\OT1/cmr/m/n/10 Xbox One \JY1/mc/m/n/10 用 \OT1/cmr/m/n/10 Kinect|Xbox
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 \OT1/cmr/m/n/10 http://www.xbox.com/ja-JP/xbox-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
 []\OT1/cmr/m/n/10 Raspbian Jessie Lite
  []
 
 
-Overfull \hbox (2.26714pt too wide) in paragraph at lines 738--739
+Overfull \hbox (2.26714pt too wide) in paragraph at lines 770--771
 \OT1/cmr/m/n/10 https://www.raspberrypi.org/downloads/raspbian/
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 []\JY1/mc/m/n/10 　 \OT1/cmr/m/n/10 Ama-zon Web Ser-vices web-site.
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 750--751
+Underfull \hbox (badness 3229) in paragraph at lines 782--783
 []\OT1/cmr/m/n/10 virt-manager web-site. https://virt-manager.org/
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 []\OT1/cmr/m/n/10 Open Net-work-ing Foun-da-tion web-site.
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 759--760
+Underfull \hbox (badness 2809) in paragraph at lines 791--792
 []\OT1/cmr/m/n/10 Open Net-work-ing Foun-da-tion Open-Flow web-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
 \OT1/cmr/m/n/10 site. https://www.opennetworking.org/sdn-
  []
 
 
-Overfull \hbox (16.32274pt too wide) in paragraph at lines 765--766
+Overfull \hbox (16.32274pt too wide) in paragraph at lines 797--798
 []\OT1/cmr/m/n/10 http://wiki.qemu.org/Documentation/CreateSnapshot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
+Underfull \hbox (badness 10000) in paragraph at lines 803--804
 \OT1/cmr/m/n/10 2.2/c/objdetect[]cascade[]classification.html
  []
 
@@ -305,12 +305,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--772
 
 ] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1339 strings out of 493653
- 18188 string characters out of 6148874
- 93981 words of memory out of 5000000
- 4934 multiletter control sequences out of 15000+600000
+ 1340 strings out of 493653
+ 18197 string characters out of 6148874
+ 92985 words of memory out of 5000000
+ 4935 multiletter control sequences out of 15000+600000
  12704 words of font info for 50 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,9n,21p,326b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.dvi (9 pages, 74364 bytes).
+Output written on resume.dvi (9 pages, 75400 bytes).
