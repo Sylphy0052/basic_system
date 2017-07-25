@@ -1,16 +1,16 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.24)  21 JUN 2017 12:57
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.18)  25 JUL 2017 01:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **resume.tex
 (./resume.tex
-pLaTeX2e <2016/11/29> (based on LaTeX2e <2017/01/01> patch level 3)
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jarticle.cls
-Document Class: jarticle 2016/11/22 v1.7b Standard pLaTeX class
+pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2017/03/05 v1.7e Standard pLaTeX class
 \c@@paper=\count82
-(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jsize10.clo
-File: jsize10.clo 2016/11/22 v1.7b Standard pLaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
 )
 \c@part=\count83
 \c@section=\count84
@@ -24,65 +24,59 @@ File: jsize10.clo 2016/11/22 v1.7b Standard pLaTeX file (size option)
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 579.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 613.
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
 \heisei=\count91
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2016/04/06 v4.08 LaTeX color/graphics driver for dvipdfmx (T
-eX Live/ChoF)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
+3/ChoF)
+))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count92
 \float@exts=\toks16
-\float@box=\box41
+\float@box=\box42
 \@float@everytoks=\toks17
-\@floatcapt=\box42
+\@floatcapt=\box43
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count93
@@ -153,65 +147,170 @@ LaTeX Font Info:    ... okay on input line 44.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
-File: figure/roomba.jpg Graphic file (type bmp)
-<figure/roomba.jpg>
-File: figure/rpi2.png Graphic file (type bmp)
- <figure/rpi2.png> [1
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+[1
 
 
 ]
-File: figure/cloud.png Graphic file (type bmp)
- <figure/cloud.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 166.
+(Font)              <9> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 166.
+(Font)              <6> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 166.
- [2] [3]
-File: figure/experiment.png Graphic file (type bmp)
+(Font)              <5> on input line 140.
+File: fig/flow_study.png Graphic file (type bmp)
+ <fig/flow_study.png>
+File: fig/flow_search.png Graphic file (type bmp)
+ <fig/flow_search.png>
+File: fig/cloud.png Graphic file (type bmp)
+ <fig/cloud.png> [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 278.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 279.
+File: fig/topology.png Graphic file (type bmp)
 
-<figure/experiment.png>
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]\OT1/cmr/bx/n/10 The Glas-gow Rasp-berry Pi Cloud:A
+<fig/topology.png> [3] [4]
+File: fig/migrate_flow.png Graphic file (type bmp)
+ <fig/migrate_flow.png>
+File: fig/migrate_flow_diff.png Graphic file (type bmp)
+ <fig/migrate_flow_diff.png>
+File: fig/clone_flow.png Graphic file (type bmp)
+
+<fig/clone_flow.png>
+Underfull \hbox (badness 1609) in paragraph at lines 439--449
+\JY1/mc/m/n/10 が移動する ． そこで ， \OT1/cmr/m/n/10 OvS \JY1/mc/m/n/10 では
+転送先アドレス
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\OT1/cmr/bx/n/10 Scale Model for Cloud Com-put-ing
+Underfull \hbox (badness 1418) in paragraph at lines 457--470
+[]\JY1/mc/m/n/10 図 \OT1/cmr/m/n/10 7 \JY1/mc/m/n/10 は \OT1/cmr/m/n/10 2 \JY1/
+mc/m/n/10 台のクライアント \OT1/cmr/m/n/10 (IP1, IP2) \JY1/mc/m/n/10 のうち
+ []
+
+[5]
+File: fig/graph.png Graphic file (type bmp)
+ <fig/graph.png>
+Overfull \hbox (25.49875pt too wide) in paragraph at lines 542--543
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
-[]\JY1/mc/m/n/9 アイロボ ッ ト公式サイト \OT1/cmr/m/n/9 https://www.irobot-
+Overfull \hbox (32.97308pt too wide) in paragraph at lines 560--561
+ [][] 
+ []
+
+[6]
+File: fig/migrate.png Graphic file (type bmp)
+ <fig/migrate.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 640--641
+[][] 
+ []
+
+File: fig/clone.png Graphic file (type bmp)
+<fig/clone.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 646--647
+[][] 
+ []
+
+File: fig/migrate_vm2.png Graphic file (type bmp)
+<fig/migrate_vm2.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 668--669
+[][] 
+ []
+
+File: fig/clone_vm2.png Graphic file (type bmp)
+<fig/clone_vm2.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 673--674
+[][] 
+ []
+
+[7]
+File: fig/kawaii.png Graphic file (type bmp)
+ <fig/kawaii.png>
+Overfull \hbox (13.53581pt too wide) in paragraph at lines 693--694
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-[]\OT1/cmr/m/n/9 Open Netrowk-ing Foun-da-tion web-site.
+Underfull \hbox (badness 6364) in paragraph at lines 726--727
+[]\JY1/mc/m/n/10 ロボ ッ ト掃除機 ルンバ\OT1/cmr/m/n/10 |\JY1/mc/m/n/10 アイロ
+ボ ッ ト公式サ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-[]\OT1/cmr/m/n/9 Open Netrowk-ing Foun-da-tion Open-Flow web-
+Underfull \hbox (badness 1178) in paragraph at lines 726--727
+\JY1/mc/m/n/10 イト\OT1/cmr/m/n/10 -iRobot https://www.irobot-jp.com/roomba/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-\OT1/cmr/m/n/9 site. https://www.opennetworking.org/sdn-
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+[]\OT1/cmr/m/n/10 Xbox One \JY1/mc/m/n/10 用 \OT1/cmr/m/n/10 Kinect|Xbox
  []
 
-[4] (./resume.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+\OT1/cmr/m/n/10 http://www.xbox.com/ja-JP/xbox-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
+[]\OT1/cmr/m/n/10 Raspbian Jessie Lite
+ []
+
+
+Overfull \hbox (2.26714pt too wide) in paragraph at lines 738--739
+\OT1/cmr/m/n/10 https://www.raspberrypi.org/downloads/raspbian/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+[]\JY1/mc/m/n/10 　 \OT1/cmr/m/n/10 Ama-zon Web Ser-vices web-site.
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 750--751
+[]\OT1/cmr/m/n/10 virt-manager web-site. https://virt-manager.org/
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+[]\OT1/cmr/m/n/10 Open Net-work-ing Foun-da-tion web-site.
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 759--760
+[]\OT1/cmr/m/n/10 Open Net-work-ing Foun-da-tion Open-Flow web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
+\OT1/cmr/m/n/10 site. https://www.opennetworking.org/sdn-
+ []
+
+
+Overfull \hbox (16.32274pt too wide) in paragraph at lines 765--766
+[]\OT1/cmr/m/n/10 http://wiki.qemu.org/Documentation/CreateSnapshot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
+\OT1/cmr/m/n/10 2.2/c/objdetect[]cascade[]classification.html
+ []
+
+[9
+
+] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1429 strings out of 493683
- 19480 string characters out of 6149653
- 90758 words of memory out of 5000000
- 5013 multiletter control sequences out of 15000+600000
- 11140 words of font info for 44 fonts, out of 8000000 for 9000
+ 1339 strings out of 493653
+ 18188 string characters out of 6148874
+ 93981 words of memory out of 5000000
+ 4934 multiletter control sequences out of 15000+600000
+ 12704 words of font info for 50 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,8n,21p,347b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,9n,21p,326b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.dvi (4 pages, 34964 bytes).
+Output written on resume.dvi (9 pages, 74364 bytes).
